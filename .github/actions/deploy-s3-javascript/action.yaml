@@ -13,4 +13,7 @@ inputs:
     required: true
 outputs:
   wbsite-url:
-    description: 'T
+    description: 'The URL of the deployed website.'
+runs:
+  using: 'node16' 
+  main: 'main.js'
